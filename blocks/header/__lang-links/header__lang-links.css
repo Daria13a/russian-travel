@@ -1,9 +1,15 @@
 .header__lang-links {
-
   display: flex;
-  flex: row;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0;
-  padding: 0;
+  padding: 12px 0 0 0;
+
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding: 6px 0 0 0;
+  }
 
 }
